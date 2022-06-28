@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "layers": {
+    "fire": {
+      "source": "mapbox://tileset-source/africanswift/fire-source",
+      "minzoom": 3,
+      "maxzoom": 5,
+      "features": {
+        "attributes": {
+          "allowed_output": ["hours_since"]
+        }
+      }
+
+    }
+  }
+}
