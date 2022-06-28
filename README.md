@@ -21,6 +21,6 @@ Firms has a rather messy API, only providing kml as output format. Thus, we `Bea
 	- Name: `Fire`
     - Map Layer service Type:: `Tile Server`
     - Title: `Fire`
-    - URL: `https://api.mapbox.com/styles/v1/africanswift/ckxsnt3rg1ga714nuco9pt31y/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiYWZyaWNhbnN3aWZ0IiwiYSI6ImNrNzJ5MjIwZjA2cW8zZ3FvZDZ6OGppenIifQ.YIHEN9bzJCReMX2kI9cwTg&fresh=true&dt=${Date.now()}&update=1`
+    - URL: `https://api.mapbox.com/styles/v1/{mapbox_account_name}/{item_id}/tiles/{z}/{x}/{y}?access_token={token}&fresh=true&dt=${Date.now()}&update=1`
     - Icon URL: `https://img.icons8.com/color/50/000000/fire-element.png`
     - Service Configuration: `null`
