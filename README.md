@@ -6,7 +6,7 @@ Set up a cronjob running the bash script `run_update_fire.sh` in this repo, some
 * * * * /home/mapbox-fire/run_update_fire.sh >> /home/mapbox-fire/logs/run_update_fire.log 2>&1
 ```
 
-This script runs `update_fire.py`, replaces a *Mapbox TileSet Source*, and publishes the tiles on *Mapbox* account name africanswift (you'll have to replace your account name and Mapbox token).
+This script runs `update_fire.py`, replaces a *Mapbox TileSet Source*, and publishes the tiles to a *Mapbox* account
 
 These tile layer contains FIRMS Data with all of these parameters:
 - regions = ['northern_and_central_africa', 'southern_africa']
